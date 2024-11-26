@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alifaBagiari</title>
+
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<!-- icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<!-- css -->
+ <link rel="stylesheet" href="css/style.css"> 
+
+</head>
+<body>
+  
+<!-- navbar -->
+ <header class="header">
+<a href="#"
+ class="logo">Alifa<span>Bagiari</span></a>
+
+ <i class='bx bx-menu' id="menu-icon"></i>
+
+<nav class="navbar"> 
+    <a href="#home" class="active">Home</a>
+    <a href="#skil">Skil</a>
+    <a href="#galery">galery</a>
+    <a href="#contact">Kontak</a>
+</nav>
+ </header>
+
+
+
+<!-- section 1 -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, it's me</h3>
+        <h1>Alifa Bagiari</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>Hallo saya adalah seorang siswa SMKN 1 MAJALENGGKA yang selalu bersemangat belajar &
+            saya memiliki minat dibidang Rekayasa Perangkat Lunak untuk menjadi seorang frontend develover.
+        </p>
+        <div class="social-media">
+            <a href="#" id="facebook">  <i class='bx bxl-facebook'></i>
+            <a href="#" id="instagram">   <i class='bx bxl-instagram' ></i>
+            <a href="#" id="linkedin">   <i class='bx bxl-linkedin' ></i>
+            <a href="#" id="github">   <i class='bx bxl-github' ></i>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+        <img src="img/home3.jpg" alt="">
+    </div>
+</section>
+
+<!-- section2 -->
+
+<section class="skil" id="skil">
+    <h2 class="heading"> My <span>Skil</span></h2>
+
+    <div class="skil-container">
+        <div class="skil-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>Web developmet</h3>
+            <p>"Saya ingin sekali memiliki keterampilan yang kuat dalam web development, khususnya dalam pengembangan frontend,
+                 Dan saya sedang belajar HTML PHP & JAVA SCRIPT." </p>
+                <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="skil-box">
+            <i class='bx bxs-paint' ></i>
+            <h3>Grapich design</h3>
+            <p>"Saya ingin sekali memiliki keterampilan Grapich design
+                dan sekarang saya sedang mempelajari itu,Saya terbiasa menciptakan desain visual yang kreatif dan efektif.
+            </p>
+                <a href="#" class="btn">Read more</a>
+        </div>
+    
+       
+    </div>
+</section>
+
+<!-- sectio3 -->
+ <section class="galery" id="galery">
+    <h2 class="heading">it's<span>galery</span></h2>
+
+    <div class="galery-container">
+        <div class="galery-box">
+            <img src="img/poto1.jpg" alt="">
+            <div class="galery-layer">
+                <h4>Poto 1</h4>
+                <p>Saya berada di ketinggian 3078 MDPL</p> <!-- Tag <p> ditutup di sini -->
+                <a href="#"><i class='bx bx-link-alt' ></i></a>
+            </div>
+        </div>
+    
+        <div class="galery-box">
+            <img src="img/poto4.jpg" alt="">
+            <div class="galery-layer">
+                <h4>Poto 2</h4>
+                <p>Foto saya saat mengikuti tour voli</p> <!-- Tag <p> ditutup di sini -->
+                <a href="#"><i class='bx bx-link-alt' ></i></a>
+            </div>
+        </div>
+    
+        <div class="galery-box">
+            <img src="img/poto3.jpg" alt="">
+            <div class="galery-layer">
+                <h4>Poto 3</h4>
+                <p>Senja yang cantik</p> <!-- Tag <p> ditutup di sini -->
+                <a href="#"><i class='bx bx-link-alt' ></i></i></a>
+            </div>
+        </div>
+
+        <div class="galery-box">
+            <img src="img/poto6.jpg" alt="">
+            <div class="galery-layer">
+                <h4>Poto 4</h4>
+                <p>Alif kecill</p> <!-- Tag <p> ditutup di sini -->
+                <a href="#"><i class='bx bx-link-alt' ></i></i></a>
+            </div>
+        </div>
+     </div>
+    
+ </section>
+
+
+<!-- section4 -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form id="contactForm">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        
+    
+        
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!-- Modal Popup -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <h3>Terima kasih!!</h3>
+        <p>Pesan anda berhasil di kirim</p>
+    </div>
+</div>
+
+
+<!-- footer -->
+ <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by Alifa Bagiari | All Rights Reserverd.</p>
+    
+        <div class="footer-iconTop">
+          <a href="#home"><i class='bx bxs-upvote'></i></a>
+        </div>
+    </div>
+ </footer>
+
+
+
+
+<!-- scrolRaveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- type js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+      <!-- my java script -->
+       <script src="js/script.js"></script>
+</body>
+</html>
